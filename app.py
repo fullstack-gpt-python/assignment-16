@@ -133,6 +133,8 @@ with st.sidebar:
             docs = wiki_search(topic)
     st.markdown("---")
     level = st.selectbox("Quiz Level", ("EASY", "HRAD"))
+    st.markdown("---")
+    st.write("Github: https://github.com/fullstack-gpt-python/assignment-16")
 
 if not docs:
     st.markdown(
